@@ -1,0 +1,67 @@
+.about__grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.about__text p {
+  color: var(--text-secondary);
+  font-size: 1.02rem;
+  margin-bottom: 20px;
+}
+
+.about__education {
+  margin: 32px 0 32px;
+  padding: 20px 24px;
+  border-left: 2px solid var(--accent);
+  background: var(--bg-card);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.about__education-label {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--accent-mint);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.about__education-degree {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 8px;
+}
+
+.about__education-duration {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.about__highlights {
+  display: grid;
+  gap: 16px;
+}
+
+.about__highlight-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 20px 22px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.about__highlight-icon {
+  color: var(--accent-mint);
+  flex-shrink: 0;
+}
+
+@media (max-width: 860px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

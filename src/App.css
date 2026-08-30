@@ -1,0 +1,9 @@
+main {
+  overflow-x: hidden;
+}
+
+/* Alternating section backgrounds create subtle rhythm without hard borders */
+#about,
+#projects {
+  background: linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0.015) 50%, transparent 100%);
+}
