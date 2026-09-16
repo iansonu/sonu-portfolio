@@ -89,7 +89,7 @@ function Contact() {
               </span>
               <div>
                 <span className="contact__info-label">LinkedIn</span>
-                <span className="contact__info-value">/in/your-linkedin</span>
+                <span className="contact__info-value">{personalInfo.linkedin}</span>
               </div>
             </a>
 
@@ -104,7 +104,7 @@ function Contact() {
               </span>
               <div>
                 <span className="contact__info-label">GitHub</span>
-                <span className="contact__info-value">/your-github</span>
+                <span className="contact__info-value">{personalInfo.github}</span>
               </div>
             </a>
 
