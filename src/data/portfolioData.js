@@ -12,14 +12,14 @@ export const personalInfo = {
   tagline: 'Building responsive and scalable web applications with modern technologies.',
   location: 'India',
   // PLACEHOLDER: replace with your real email address
-  email: 'your-email@example.com',
+  email: 'sonunishad2100@gmail.com',
   // PLACEHOLDER: replace with your real LinkedIn profile URL
-  linkedin: 'https://linkedin.com/in/your-linkedin',
+  linkedin: 'https://www.linkedin.com/in/sonu-nishad/',
   // PLACEHOLDER: replace with your real GitHub profile URL
-  github: 'https://github.com/your-github',
+  github: 'https://github.com/iansonu',
   // PLACEHOLDER: drop your real resume file at public/resume.pdf (keep the same filename,
   // or update this path if you rename it)
-  resumePath: '/resume.pdf',
+  resumePath: 'https://drive.google.com/file/d/1-pyHzah7A8HJVYVqV2sVnTeWdK1ocDe8/view?usp=drivesdk',
 }
 
 export const aboutInfo = {
@@ -80,9 +80,9 @@ export const projects = [
     ],
     technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'JWT', 'Razorpay'],
     // PLACEHOLDER: replace with your real GitHub repository link
-    githubLink: 'https://github.com/your-github/ai-ecommerce-platform',
+    githubLink: 'https://github.com/iansonu/AI-E-COMMERCE-CLEAN',
     // PLACEHOLDER: replace with your real live demo link
-    liveLink: 'https://your-live-demo-link.com',
+    liveLink: 'https://ai-e-commerce-clean-frontend.onrender.com/',
   },
   {
     id: '02',
@@ -97,7 +97,7 @@ export const projects = [
     ],
     technologies: ['Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'EJS', 'REST APIs'],
     // PLACEHOLDER: replace with your real GitHub repository link
-    githubLink: 'https://github.com/your-github/wanderlust',
+    githubLink: 'https://github.com/iansonu/Airbnb-Project',
     // PLACEHOLDER: replace with your real live demo link
     liveLink: 'https://your-live-demo-link.com',
   },
@@ -114,7 +114,7 @@ export const projects = [
     ],
     technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'Axios'],
     // PLACEHOLDER: replace with your real GitHub repository link
-    githubLink: 'https://github.com/your-github/employee-management-system',
+    githubLink: 'https://github.com/iansonu/Employee-Management-',
     // PLACEHOLDER: replace with your real live demo link
     liveLink: 'https://your-live-demo-link.com',
   },
